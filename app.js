@@ -1,7 +1,9 @@
  const style ={
 
     "limit-flex":{ flex: "1",display: "grid", justifyContent: "center", alignItems: "center",},
-
+   "limit-padding":{
+    padding:"19rem"
+   },
 
 
     "limit-hdvh":{
@@ -56,7 +58,8 @@
 
             if (style[className]) {
                 Object.assign(cd.style,style[className])
-                
+
+               
             } else {
                 console.log(className, "invalid className");
                 
@@ -72,12 +75,14 @@
     })
 
 
-
-    
   }
+
+
+  
  
 
  nodeList()
  
 
+ 
 
